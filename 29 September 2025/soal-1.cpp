@@ -7,6 +7,7 @@ Deskripsi: Soal 1 Quiz Praktikum Algoritma dan Pemrograman
 */
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 // Rumus adalah A = P(1 + (r/n))^(nt), dengan P sebagai modal awal, r sebagai suku bunga tahunan dalam desimal, n sebagai jumlah periode per tahun, t sebagai durasi dalam tahun
@@ -35,7 +36,7 @@ int main() {
     double r;
     angka(p, r, n, t);
 
-    cout << hitungBunga(p, r, n, t) << endl;
+    cout << round(hitungBunga(p, r, n, t)) << endl;
 
     return 0;
 }
