@@ -39,7 +39,6 @@ int main() {
     cin >> number;
 
     int cars[number];
-
     // Used to data the cars' speed
     for (int i = 0; i < number; i++) {
         cin >> cars[i];
